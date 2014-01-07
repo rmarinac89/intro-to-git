@@ -1,0 +1,586 @@
+body, html {
+
+	margin: 0;
+	padding: 0;
+	font-family: 'Anaheim', sans-serif;
+
+}
+
+#body-container {
+	width: 100%;
+	margin:0;
+	padding: 0;
+
+}
+
+.banner {
+  position: relative;
+  overflow: auto;
+  min-width:100%;
+}
+ 
+.button-slider {
+  margin:25px auto;
+  text-align:center;
+  color:#fff;
+  padding:10px;
+  width:100px;
+  border-radius:5px;
+  border:1px solid #fff;
+  opacity:0.5;
+ 
+}
+ 
+.button-slider:hover {
+  opacity:1;
+
+}
+ 
+.banner ul {
+  padding:0;
+  margin:0;
+}
+ 
+.banner li {
+ 
+  list-style: none;
+ 
+ 
+}
+ 
+.banner ul li {
+ 
+  float: left;
+  display:block;
+  padding:250px 0 250px 0;
+ 
+ 
+}
+ 
+.banner li:nth-child(1) {
+ 
+  background-image:url("http://www.wired.com/wiredenterprise/wp-content/uploads/2013/07/ff_googleinfrastructure_large.jpg");
+ 
+ 
+}
+
+.banner li:nth-child(2) {
+ 
+  background-image:url("http://upload.wikimedia.org/wikipedia/commons/e/e9/Sombrero_Galaxy_in_infrared_light_(Hubble_Space_Telescope_and_Spitzer_Space_Telescope).jpg");
+ 
+}
+ 
+ 
+.banner li:nth-child(3) {
+ 
+  background-image:url("http://www.nyewall.com/images/2013/05/space-wallpaper-hd-nature-wallpapers.jpg");
+ 
+}
+ 
+ 
+.banner h1 {
+
+    font-size: 40px;
+    color:#fff;
+    text-align: center;
+
+}
+
+.banner p {
+ 
+  display:block;
+  color:#fff;
+  text-align:center;
+ 
+}
+
+
+a:link {
+
+	text-decoration: none;
+	font-family:'Anaheim', sans-serif;
+	color: #ff0099;
+	font-weight:200;
+
+}
+
+
+a:visited {
+	color: #ff0099;
+
+}
+
+a:hover {
+	color:#000;
+
+}
+
+a.active {
+	color:#000;
+
+}
+
+
+header {
+
+	padding:0;
+	margin: 0;
+	width: 100%;
+
+}
+
+.mainHeader img {
+	padding: 7.5px 40px;
+	float: left;
+
+
+}
+
+nav {
+	top:0;
+	margin:0;
+	position: fixed;
+	display: block;
+	background-color: #fff;
+	width: 100%;
+	opacity:0.9;
+	-webkit-animation: slidein 1.2s;
+}
+@keyframes slidein {
+  from {
+    top: -60px;
+  }
+
+  to {
+    top: 0;
+  }
+}
+
+@-webkit-keyframes slidein {
+  from {
+ 
+    top: -60px;
+  }
+
+  to {
+
+    top: 0;
+  }
+}
+
+.mainHeader ul {
+	float: right;
+	padding-right: 40px;
+
+	
+}
+
+.mainHeader li {
+	list-style: none;
+	display: inline-block;
+	padding: 5px 20px;
+
+}
+
+.brands {
+	background: #fff;
+	text-align: center;
+
+}
+
+
+
+.logos {
+	display:inline-block;
+  	padding:10px;
+  	margin: 2em;
+
+}
+
+
+.promo {
+	width: 100%;
+	height:1000px;
+	background-color: #99ffff;
+}
+
+.inner-promo-container {
+	width: 60%;
+	margin: 0 auto;
+
+}
+
+.inner-promo-container h3 {
+	font-weight: 200;
+	font-family:'Anaheim', sans-serif;
+	font-size: 2em;
+	text-align: center;
+	margin:0 auto;
+	padding:4% 0 2% 0;
+
+}
+
+.info {
+	text-align: center;
+	font-family: 'Anaheim', sans-serif;
+	margin:0 auto;
+	color: #505050;
+
+}
+
+.button {
+	margin: 0 auto;
+    color: #fff;
+    text-decoration: none;
+    background-color: #ff33CC; 
+    font-family:'Anaheim', sans-serif;
+    text-align: center;
+    width: 150px;
+    display: block;
+    padding: 2%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 5px 0px #ff0099;
+    -moz-box-shadow: 0px 5px 0px #ff0099;
+    box-shadow: 0px 5px 0px #ff0099;
+
+
+}
+
+
+
+.catalogues {
+	width: 100%;
+
+}
+
+.inner-guide {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.guides {
+	margin: 0 auto;
+	width: 400px;
+	height: 600px;
+	margin-top: 100px;
+	margin-right:80px;
+	margin-left:90px;
+}
+
+
+.social-media {
+	width: 100%;
+	height:780px;
+	background-color: #fff;
+}
+
+.media-info {
+	margin: 0 auto;
+	width: 60%
+}
+
+
+.media-info h3 {
+	font-weight: 200;
+	font-family:'Anaheim', sans-serif;
+	font-size: 2em;
+	text-align: center;
+	margin:0 auto;
+	padding:4% 0 2% 0;
+}
+
+.inner-logo {
+	width: 60%;
+	margin:0 auto;
+}
+
+.iphone5s {
+	margin: 0 auto;
+	width:60%;
+
+	
+}
+
+.iphone {
+	overflow: auto;
+	margin: 0 auto;
+	height: 100%;
+	width: 100%;
+	padding-top:10%;
+	
+}
+
+.education {
+	background-color: #f9f9f9;
+	width: 100%;
+	height: 780px;
+}
+
+.opportunities {
+	background-color: #d62323;
+	width: 100%;
+	height: 1275px;
+}
+
+.opportunities-info {
+	margin: 0 auto;
+	width: 60%;
+}
+
+
+.opportunities h3 {
+	font-weight: 200;
+	font-family:'Anaheim', sans-serif;
+	font-size: 2em;
+	text-align: center;
+	margin:0 auto;
+	padding:4% 0 1% 0;
+}
+
+.opportunities-info h4 {
+	font-family:'Anaheim', sans-serif;
+	font-size: 1.60em;
+	text-align: left;
+	margin:0 auto;
+	padding:4% 0 2% 0;
+} 
+
+
+.opportunities p {
+	color: #fff;
+	text-align: left;
+}
+
+span .tagline {
+	font-family:'Anaheim', sans-serif;
+	font-size: 1.75em;
+	color: #FFFF00;
+	text-align: center;
+
+}
+
+
+.job-responsibilities li {
+	list-style-type: circle;
+	font-family:'Anaheim', sans-serif;
+	list-style-position: left;
+	color: #fff;
+}
+
+
+.email-to a {
+	color: #FFFF00;
+
+}
+
+.email-to a:hover {
+	text-decoration: underline;
+}
+
+#contact-page-form {
+	padding: 2em 3%;
+	background-color: #fff;
+
+}
+
+.container .clearfix {
+	position: relative;
+	margin: 0 auto;
+}
+
+.clearfix {
+	zoom:1;
+}
+
+.group {
+	display: inline;
+	text-align: center;
+}
+
+.contact-form-wrap h3 {
+	font-family:'Anaheim', sans-serif;
+	text-align: center;
+}
+
+.contact-name .contact-email .salon-name .business-address .city .postal-code {
+	margin: 0 0 1.7em;
+
+}
+
+input:focus {
+	outline-color: #ff0099;
+
+}
+
+
+input {
+	
+	border: none;
+	border: 0.5px solid #B8B8B8;
+  	background-color:#B8B8B8;
+  	/*border-radius: 1.5em;
+  	-webkit-border-radius: 1.5em;
+  	-moz-border-radius: 1.5em;
+  	-ms-border-radius: 1.5em;*/
+  	width: 40em;
+  	padding:1.5em;
+  	
+
+}
+
+input [type="text"] {
+
+	color: #fff;
+
+}
+
+
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #fff;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #fff;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #fff;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #fff;
+}
+
+
+label {
+	font-family:'Anaheim', sans-serif;
+
+}
+
+.submit-button {
+
+	color: #ff0099;
+	font-family:'Anaheim', sans-serif;
+	background: #fff;
+	padding:0.625em;
+	border: 1px solid #ff0099;
+	border-radius: 0.5em;
+	margin: 0 auto;
+	text-align: center;
+	width: 6.250em;
+	opacity: 0.5;
+
+}
+
+.submit-button:hover {
+opacity: 1;
+
+
+}
+
+
+.master-footer {
+	background-color: #252525;
+	padding:5em 0;
+}
+
+.footer-container {
+	margin: 0 auto;
+	width: 85%;
+	height: 4em;
+}
+
+.order-now {
+	float: right;
+	text-align: right;
+	padding:8px 0;
+	font-family:'Anaheim', sans-serif; 
+	color: #fff;
+}
+
+.detail {
+	padding-right: 5px;
+}
+
+
+.social-icon {
+	float: left;
+	padding-top:8px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+
+}
+
+
+a.number {
+	font-family:'Anaheim', sans-serif;
+	color: #ff0099;
+
+}
+
+a.number:hover {
+	text-decoration: underline;
+}
+
+.signature {
+	height: 50px;
+	clear: both;
+	text-align: center;
+	vertical-align: bottom;
+	
+}
+
+.signature small {
+	
+	color: #fff;
+	font-family:'Anaheim', sans-serif;
+	font-size: 0.80em;
+	text-transform: uppercase;
+
+}
+
+.sig-container {
+	padding-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
