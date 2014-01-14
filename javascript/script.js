@@ -19,7 +19,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $('nav li:nth-child(1)').click(function() {
+    $('nav li:first-child').click(function() {
         $('html, body').scrollTo('.brands', 1000, {offset:-60});
 
 });
@@ -41,7 +41,7 @@ $(document).ready(function(){
 
 });
 
-    $('nav li:nth-child(6), .button').click(function() {
+    $('nav li:last-child, .button').click(function() {
         $('html, body').scrollTo('#contact-page-form', 1000,{offset:-60});
 
 });
@@ -93,6 +93,7 @@ $(document).ready(function(){
 
         });
 });
+
 
 
 
