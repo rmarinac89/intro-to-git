@@ -78,21 +78,10 @@ $(document).ready(function(){
 */
 
 
-//Slides the nav bar / header down after page load.
 
 
-//Mouse over option for the sign-up button
 
-$(document).ready(function(){
-    $('.button').mouseenter(function(){
-      $(this).fadeTo('fast', 0.60);
 
-    });
-       $('.button').mouseleave(function(){
-         $(this).fadeTo('fast', 1);
-
-        });
-});
 
 
 

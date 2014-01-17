@@ -22,12 +22,14 @@ body, html {
 .button-slider {
   margin:25px auto;
   text-align:center;
+  text-transform: uppercase;
   color:#fff;
   padding:10px;
-  width:100px;
+  width:120px;
   border-radius:5px;
   border:1px solid #fff;
   opacity:0.5;
+
  
 }
  
@@ -230,21 +232,26 @@ nav {
 
 .button {
 	margin: 0 auto;
-    color: #fff;
+    color: #ff33CC;
     text-decoration: none;
-    background-color: #ff33CC; 
+    text-transform: uppercase;
     font-family:'Anaheim', sans-serif;
     text-align: center;
-    width: 150px;
+    width: 120px;
     display: block;
-    padding: 2%;
+    padding: 10px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-    -webkit-box-shadow: 0px 5px 0px #ff0099;
-    -moz-box-shadow: 0px 5px 0px #ff0099;
-    box-shadow: 0px 5px 0px #ff0099;
+    border:1px solid #ff33CC;
+    opacity: 0.7;
 
+
+}
+
+.button:hover {
+
+  opacity: 1;
 
 }
 
