@@ -13,7 +13,7 @@ $(document).ready(function(){
 //Animated scrolling to anchored links
 
 $(document).ready(function(){
-    $('.back-to-top').click(function() {
+    $('#top').click(function() {
         $('html, body').animate({scrollTop: 0}, 1000);
     });
 });
@@ -51,9 +51,9 @@ $(document).ready(function(){
 //switching active states between navigation links
 
 $(document).ready(function(){
-    $('li a').click(function(e) {
+    $('img, li a').click(function(e) {
         e.preventDefault();
-        $('a').removeClass('active');
+        $('img, a').removeClass('active');
         $(this).addClass('active');
     });
 });
