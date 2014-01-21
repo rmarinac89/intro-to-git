@@ -62,28 +62,28 @@ body, html {
 .banner li:first-child {
  
   background-image:url("http://4.bp.blogspot.com/-M6ZaEtEDAx4/UJAigCMiz9I/AAAAAAAAOmQ/C-oiQ4t5PTw/s1600/IMG_2056.JPG");
- 
+
  
 }
 
 .banner li:nth-child(2) {
  
   background-image:url("http://spinbikesandopaquetights.files.wordpress.com/2013/09/beauty-and-health-tips.jpg");
- 
+
 }
  
  
 .banner li:last-child {
  
   background-image:url("http://www.nyewall.com/images/2013/05/space-wallpaper-hd-nature-wallpapers.jpg");
- 
+
 }
  
  
 .banner h1 {
 
     font-size: 40px;
-    font-weight: lighter;
+    font-weight: 500;
     color:#ff0099;
     margin:18.72px;
     text-align: center;
@@ -129,14 +129,6 @@ nav a.active {
 }
 
 
-header {
-
-	padding:0;
-	margin: 0;
-	width: 100%;
-
-}
-
 .mainHeader img {
 	padding: 7.5px 40px;
 	float: left;
@@ -179,6 +171,8 @@ nav {
 .mainHeader ul {
 	float: right;
 	padding-right: 40px;
+  margin:0;
+  line-height: 60px;
 
 	
 }
@@ -186,7 +180,8 @@ nav {
 .mainHeader li {
 	list-style: none;
 	display: inline-block;
-	padding: 5px 20px;
+  height: 60px;
+  padding:0 20px;
 
 }
 
@@ -194,22 +189,27 @@ nav {
 	background: #fff;
   width: 100%;
 	margin:0 auto;
+  display: table;
 
 }
 
-
-
-.logos {
-	display:inline-block;
-  padding:45px;
-
+.brands a {
+  display: table-cell;
+  text-align: center;
 }
+
+.brands a img {
+  max-width: 100%;
+  width: auto;
+  margin: 45px 0;
+}
+
 
 
 .promo {
 	width: 100%;
 	height:700px;
-	background-color: #99ffff;
+	background-color: #CCFFCC;
 }
 
 .inner-promo-container {
@@ -264,6 +264,7 @@ nav {
 
 .catalogues {
 	width: 60%;
+  display: block;
   margin: 0 auto;
 
 }
@@ -311,6 +312,7 @@ nav {
 	margin:0 auto;
 }
 
+
 .iphone5s {
 	margin: 0 auto;
 	width:60%;
@@ -336,7 +338,7 @@ nav {
 .opportunities {
 	background-color: #d62323;
 	width: 100%;
-	height: 1275px;
+	height: 1375px;
 	display: inline-block;
 }
 
@@ -352,7 +354,8 @@ nav {
 	font-size: 2em;
 	text-align: center;
 	margin:0 auto;
-	padding:4% 0 1% 0;
+	padding:4% 0 0 0;
+
 }
 
 .opportunities-info h4 {
@@ -374,6 +377,7 @@ span .tagline {
 	font-size: 1.75em;
 	color: #FFFF00;
 	text-align: center;
+  padding:20px;
 
 }
 
@@ -415,8 +419,9 @@ span .tagline {
 	text-align: center;
 }
 
-.contact-form-wrap h3 {
+.contact-form-wrap h2 {
 	font-family:'Anaheim', sans-serif;
+  font-weight: 200;
 	text-align: center;
 }
 
@@ -425,34 +430,18 @@ span .tagline {
 
 }
 
-input:focus {
-	outline: thin dotted;
-	outline-color:#ff0099;
 
-}
-
-input {
-	
-	border: none;
-	border: 0.5px solid #B8B8B8;
-  	background-color:#B8B8B8;
-  	/*border-radius: 1.5em;
-  	-webkit-border-radius: 1.5em;
-  	-moz-border-radius: 1.5em;
-  	-ms-border-radius: 1.5em;*/
-  	width: 40em;
-  	padding:1.5em;
-  	
-
-}
-
-input [type="text"] {
-
+input, input [type="text"] {
+  width: 40em;
+  padding:1.5em;
+  border: none;
+  background-color:#B8B8B8;
 	color: #fff;
+  font-family:'Anaheim', sans-serif;
+  font-size: 0.8em;
+  font-weight: 500;
 
 }
-
-
 
 ::-webkit-input-placeholder { /* WebKit browsers */
     color:    #fff;
@@ -467,32 +456,34 @@ input [type="text"] {
     color:    #fff;
 }
 
-
-label {
-	font-family:'Anaheim', sans-serif;
-
-}
-
-.submit-button {
-
-	color: #ff0099;
-	font-family:'Anaheim', sans-serif;
-	background: #fff;
-	padding:0.625em;
-	border: 1px solid #ff0099;
-	border-radius: 0.5em;
-	margin: 0 auto;
-	text-align: center;
-	width: 6.250em;
-	opacity: 0.5;
+input:focus {
+  outline-color:#ff0099;
 
 }
 
-.submit-button:hover {
-opacity: 1;
 
-
+input[type="submit"],
+input[type="reset"]
+ 
+ {
+  width:150px;
+  outline:none;
+  background:#ff0099;
+  margin: 10px;
+  display: inline-block;
+  border-radius: 5px;
+  color: #fff;
+  opacity: 0.7;
 }
+
+input[type="submit"]:hover {
+  opacity: 1;
+}
+
+input[type="reset"]:hover {
+  opacity: 1;
+}
+
 
 
 .master-footer {
@@ -526,8 +517,15 @@ opacity: 1;
 	padding-top:8px;
 	padding-right: 8px;
 	padding-bottom: 8px;
+  opacity: 0.7;
 
 }
+
+.social-icon:hover {
+  opacity: 1;
+}
+
+
 
 
 a.number {

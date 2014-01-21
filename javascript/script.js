@@ -3,7 +3,7 @@
 $(document).ready(function(){
 	$('.banner').unslider({
 			speed:1000,
-            delay:2000,
+            delay:3500,
 			keys:true,
 			dots:true,
 
@@ -57,6 +57,9 @@ $(document).ready(function(){
         $(this).addClass('active');
     });
 });
+
+
+
 
 /*
 $(document).ready(function(){
