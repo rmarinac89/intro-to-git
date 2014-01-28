@@ -13,23 +13,29 @@ body, html {
 
 }
 
+
 .banner {
   position: relative;
   overflow: auto;
   min-width:100%;
 }
+
  
 .button {
-  margin:25px auto;
+  margin:35px auto;
   text-align:center;
   background:#fff;
-  color:##B8B8B8;
+  color:#000;
   padding:10px;
   width:120px;
   border-radius:5px;
-  opacity:0.9;
+  opacity:0.8;
 
  
+}
+
+.flyer  {
+  display: inline-block;
 }
  
 .button:hover {
@@ -38,6 +44,7 @@ body, html {
 }
  
 .banner ul {
+
   padding:0;
   margin:0;
 }
@@ -85,6 +92,7 @@ body, html {
     color:#ff0099;
     text-align: center;
     margin-bottom:18.72px;
+
 }
 
 .banner h3 {
@@ -92,11 +100,16 @@ body, html {
   display:block;
   color:#252525;
   text-align:center;
-  margin:18.72px;
-  margin-bottom: 5px;
+  margin-bottom: 18.72px;
   font-weight: lighter;
   letter-spacing: 2px;
  
+}
+
+hr {
+  width: 20px;
+  border:1px solid grey;
+
 }
 
 
@@ -208,7 +221,17 @@ nav {
 .promo {
 	width: 100%;
 	height:700px;
-	background-color: #CCFFCC;
+  background:#D7d7d7;
+
+}
+
+.info a:hover {
+  text-decoration: underline;
+}
+
+
+.clearfix {
+  overflow: auto;
 }
 
 .inner-promo-container {
@@ -242,25 +265,19 @@ nav {
 
 .catalogues {
 	width: 60%;
-  display: block;
   margin: 0 auto;
 
 }
 
 
 .catalogues img {
-  display: inline-block;
-	width: 250px;
-	height: 350px;
-	margin: 75px 80px 0px 80px;
-  padding-bottom: 0 0 0 4%;
-  opacity: 1;
+  height: 400px;
+  width: 375px;
+  margin:1% 0 0 27.9%;
+
 
 }
 
-.catalogues img:hover {
-  opacity: 0.7;
-}
 
 .social-media {
 	width: 100%;
@@ -371,12 +388,6 @@ span .tagline {
 }
 
 
-
-
-
-
-
-
 .job-responsibilities li {
 	list-style-type: circle;
 	font-family:'Anaheim', sans-serif;
@@ -400,7 +411,7 @@ span .tagline {
 
 }
 
-.container .clearfix {
+.contain .clearfix {
 	position: relative;
 	margin: 0 auto;
 }
@@ -416,8 +427,8 @@ span .tagline {
 
 .contact-form-wrap h2 {
 	font-family:'Anaheim', sans-serif;
-  font-weight: 200;
 	text-align: center;
+  
 }
 
 .contact-name .contact-email .salon-name .business-address .city .postal-code {
@@ -452,34 +463,26 @@ input, input [type="text"] {
 }
 
 input:focus {
-  outline-color:#ff0099;
-
-}
-
-
-input[type="submit"],
-input[type="reset"]
- 
- {
-  width:150px;
-  outline:none;
   background:#ff0099;
-  margin: 10px;
-  display: inline-block;
-  border-radius: 5px;
-  color: #fff;
-  opacity: 0.7;
+  outline: none;
+
 }
 
-input[type="submit"]:hover {
+input[type="submit"], input[type="reset"]  {
+  text-align:center;
+  background:#ff0099;
+  color:#fff;
+  padding:15px;
+  width:150px;
+  margin:0 15px;
+  border-radius:5px;
+  opacity:0.8;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
   opacity: 1;
 }
-
-input[type="reset"]:hover {
-  opacity: 1;
-}
-
-
 
 .master-footer {
 	background-color: #252525;
@@ -512,15 +515,14 @@ input[type="reset"]:hover {
 	padding-top:8px;
 	padding-right: 8px;
 	padding-bottom: 8px;
-  opacity: 0.7;
+  color: #ff0099;
+  opacity: 0.8;
 
 }
 
 .social-icon:hover {
   opacity: 1;
 }
-
-
 
 
 a.number {
