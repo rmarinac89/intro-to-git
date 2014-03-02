@@ -127,18 +127,12 @@ a:visited {
 
 }
 
-nav a:hover {
-	color:#000;
-  border-bottom: 2.5px solid #ff0099;
-
-}
-
+nav a:hover,
 nav a.active {
 	color:#000;
   border-bottom: 2.5px solid #ff0099;
 
 }
-
 
 .mainHeader img {
 	padding: 7.5px 40px;
