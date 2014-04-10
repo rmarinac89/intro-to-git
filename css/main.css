@@ -20,6 +20,7 @@ body, html {
   min-width:100%;
 }
 
+
  
 .button {
   margin:35px auto;
@@ -67,19 +68,21 @@ body, html {
 .banner li:first-child {
  
   background-image:url("http://4.bp.blogspot.com/-M6ZaEtEDAx4/UJAigCMiz9I/AAAAAAAAOmQ/C-oiQ4t5PTw/s1600/IMG_2056.JPG");
-
+  background-position: 100% 100%;
+  overflow: hidden;
  
 }
 
 .banner li:nth-child(2) {
  
   background-image:url("http://spinbikesandopaquetights.files.wordpress.com/2013/09/beauty-and-health-tips.jpg");
+  background-position: 20% 50%;
 }
  
  
 .banner li:last-child {
  
-  background-image:url("http://www.nyewall.com/images/2013/05/space-wallpaper-hd-nature-wallpapers.jpg");
+  background-image:url("http://img.wallpaperstock.net:81/globe-city-reflection-wallpapers_13865_1920x1200.jpg");
 
 }
  
@@ -103,6 +106,10 @@ body, html {
   font-weight: lighter;
   letter-spacing: 2px;
  
+}
+
+.banner .white {
+	color: #fff;
 }
 
 hr {
